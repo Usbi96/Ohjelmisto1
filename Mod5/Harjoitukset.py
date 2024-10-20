@@ -47,7 +47,7 @@ lista1 = ("Ulla", "Matti", "Ikka")
 yhdistetty_lista = (23,45,66,67, lista1)
 print(yhdistetty_lista[4][0]) #5.listasta ensimmäinen indeksi
 """
-
+"""
 #lista = ["Ville", "Liisa", "Ulla", "Anna", "Matti","Ahmed", "Neo", "Viivi"]
 lista = ["Ville", "Liisa", "Ulla", "Anna", "Matti","Ahmed", "Neo", "Viivi"]
 
@@ -76,3 +76,27 @@ print(lista)
 numerot = [1,4,7,0,6]
 numerot.sort()
 print(numerot)
+"""
+lista = ["Ville", "Liisa", "Ulla", "Anna", "Matti","Ahmed", "Neo", "Viivi"]
+for kirjain in "Usama":
+    print(kirjain)
+for alkio in [1,2,3,4]:
+    print(alkio)
+
+for nimi in lista:
+    print(nimi)
+
+for numero in range(5,51,10):
+    print(numero)
+
+for i in range(999,0,-3):
+    print(i)
+
+# Käytetään edellä olevia iteroimaan nimilistaa läpo
+# For silmukka iteraattorilla
+print(lista)
+for i in range(5):
+    print(f"Terve:{lista[i]}")
+
+for i in range(len(lista)): #Listan pituuden
+    print(f"Terve: {lista[i]}")
